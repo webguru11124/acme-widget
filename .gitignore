@@ -1,0 +1,49 @@
+# Ignore Composer dependencies
+/vendor/
+
+# Ignore Composer lock file
+composer.lock
+
+# Ignore PHPStorm files
+.idea/
+
+# Ignore environment variables
+.env
+
+# Ignore log files
+/logs/
+/*.log
+
+# Ignore cache directories
+/cache/
+/tmp/
+
+# Ignore Docker files
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Ignore test coverage results
+/coverage/
+
+# Ignore PHPUnit cache and result files
+.phpunit.result.cache
+/testdox/
+
+# Ignore Node.js dependencies (if any)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore build artifacts
+/build/
+/dist/
+
+/*.bak
+/*.swp
+
+# Ignore MacOS files
+.DS_Store
+
+# Ignore Linux files
+*~
